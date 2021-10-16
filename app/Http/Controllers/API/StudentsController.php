@@ -12,7 +12,7 @@ class StudentsController extends Controller {
 
     public $successStatus = 200;
 
-    public function studentQuery() {
+    public function studentsAPI() {
         $students = Students::all();
 
         if (count($students) > 0) {

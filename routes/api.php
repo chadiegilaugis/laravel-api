@@ -22,5 +22,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('test-query', [UsersController::class, 'testQuery']);
-Route::get('students-query', [StudentsController::class, 'studentQuery']);
-Route::get('likes-query', [LikesController::class, 'likesQuery']);
+Route::get('students-query', [StudentsController::class, 'studentsAPI']);
+
